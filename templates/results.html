@@ -12,6 +12,10 @@
             <li>{{ question }}: {{ result }}</li>
         {% endfor %}
     </ul>
+    <div>
+        <label for="name">Enter your name:</label>
+        <input type="text" id="name" name="name" required>
+    </div>
     <a href="{{ url_for('index') }}">Try Again</a>
 </body>
 </html>

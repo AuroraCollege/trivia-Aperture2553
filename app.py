@@ -5,7 +5,7 @@
 from flask import Flask, render_template, request, redirect, url_for
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
-from models import Base, Question
+from models import Base, Question, User
 
 app = Flask(__name__)
 
